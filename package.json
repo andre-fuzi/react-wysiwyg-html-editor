@@ -14,7 +14,7 @@
     "react-scripts": "3.4.1",
     "suneditor-react": "^2.8.0"
   },
-  "homepage": "http://andre-fuzi.github.io/react-wysiwyg-editors",
+  "homepage": "https://andre-fuzi.github.io/react-wysiwyg-editors/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
