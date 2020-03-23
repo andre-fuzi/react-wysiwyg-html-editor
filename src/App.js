@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CKEditor from './_components/ckeditor';
+import ReactQuill from './_components/react-quill'
+import SunEditor from './_components/suneditor'
+
+import "./style.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>WYSIWYG HTML Editors</h1>
+
+      <div className="container">
+        <CKEditor />
+        <ReactQuill />
+        <SunEditor />
+      </div>
     </div>
   );
 }
